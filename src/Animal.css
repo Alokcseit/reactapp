@@ -1,0 +1,114 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 15%; /* Aspect ratio of 100% width and 30% height */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.overlay {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.overlay h2 {
+  background: #000 none repeat scroll 0 0;
+  color: tan;
+  font-weight: 600;
+  margin: 2rem 3rem 0;
+  mix-blend-mode: overlay;
+  padding: 5px 15px;
+  text-align: center;
+}
+.vcontent {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bannertext {
+  font-size: 50px;
+  padding-left: 20px;
+  font-weight: 900;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(183, 255, 0);
+  border-left: 5px solid yellow;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  height: auto;
+  background-color: rgb(242, 249, 255);
+}
+.footercontent1 {
+  grid-column: 2/3;
+}
+.footercontent1 ul {
+  list-style-type: none;
+}
+.footercontent1 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent1 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent2 {
+  grid-column: 3/4;
+}
+.footercontent2 ul {
+  list-style-type: none;
+}
+.footercontent2 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent2 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent3 {
+  grid-column: 4/5;
+}
+.footercontent3 ul {
+  list-style-type: none;
+}
+.footercontent3 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent3 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+hr {
+  font-weight: 900;
+}
+.lastfooter {
+  margin: 0;
+}
+.ima {
+  width: 400px;
+}

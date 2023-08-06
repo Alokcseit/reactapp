@@ -1,0 +1,89 @@
+.container1 {
+  background-color: rgb(235, 235, 244);
+  height: 120px;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-top: 20%; /* Aspect ratio of 100% width and 30% height */
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.videocard {
+  height: 240px;
+  width: 310px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  color: rgb(171, 82, 209);
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  height: auto;
+  background-color: rgb(242, 249, 255);
+}
+.footercontent1 {
+  grid-column: 2/3;
+}
+.footercontent1 ul {
+  list-style-type: none;
+}
+.footercontent1 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent1 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent2 {
+  grid-column: 3/4;
+}
+.footercontent2 ul {
+  list-style-type: none;
+}
+.footercontent2 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent2 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent3 {
+  grid-column: 4/5;
+}
+.footercontent3 ul {
+  list-style-type: none;
+}
+.footercontent3 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent3 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+hr {
+  font-weight: 900;
+}
+.lastfooter {
+  margin: 0;
+}
+.ima {
+  width: 400px;
+}

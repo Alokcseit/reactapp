@@ -1,0 +1,567 @@
+body {
+  background-color: rgb(242, 249, 255);
+}
+.latestcontent {
+  margin-top: 0;
+  background: #fe5d00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f83600,
+    #fe8c00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 500px;
+  z-index: -1;
+  display: grid;
+  grid-template-rows: repeat(10, 1fr);
+  overflow: none;
+}
+.latestcontent1 {
+  grid-row: 6/7;
+  justify-self: center;
+  align-self: center;
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  font-weight: 900;
+  word-spacing: 15px;
+  letter-spacing: 2px;
+}
+.latestcontent2 {
+  grid-row: 7/8;
+  justify-self: center;
+  align-self: center;
+  color: #ffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  word-spacing: 10px;
+  letter-spacing: 3px;
+}
+.latestcontent3 {
+  height: 5px;
+  width: 70px;
+  background-color: yellow;
+  grid-row: 9/10;
+  justify-self: center;
+  align-self: center;
+}
+/* .books {
+  display: grid;
+  height: auto;
+  grid-template-columns: 12% 22% 22% 22% 14%;
+  grid-template-rows: 400px 400px 400px 400px 400px;
+  grid-column-gap: 2%;
+  grid-row-gap: 30px;
+  background-color: rgb(242, 249, 255);
+} */
+/* .subbooks1 {
+  height: 600px;
+  width: 50%;
+  grid-column: 2/4;
+  grid-row: 1/2;
+  box-shadow: 2px 4px 2px rgb(234, 226, 226);
+  background-image: url("https://i.natgeofe.com/k/42e5d537-beaf-4df9-9091-82f77bffd600/april-23-ngk-cover-fb.jpg?w=1440&h=810");
+  background-size: 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #ffffff;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 800;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+} */
+/* .subbooks1content {
+  grid-row: 5/6;
+}
+.subbooks1content a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.subbooks1content a:hover {
+  color: rgb(117, 20, 165);
+} */
+.subbooks2 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 60% 40%;
+}
+.subbooks2 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks2-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 90%;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+
+.image:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks2-2 {
+  background-color: #ffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.subbooks3 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks3 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks3-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image1 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image1:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks3-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks4 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks4 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks4-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image2 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image2:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks4-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks5 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks5 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks5-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image3 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image3:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks5-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks6 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks6 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks6-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image4 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image4:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks6-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks7 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks7 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks7-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image5 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image5:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks7-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks8 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks8 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks8-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image6 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image6:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks8-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks9 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks9 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks9-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image7 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image7:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks9-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks10 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks10 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks10-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image8 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image8:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks10-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks11 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks11 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks11-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image9 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image9:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks11-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks12 {
+  height: 350px;
+  box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
+  overflow: hidden;
+  display: grid;
+  grid-template-rows: 56% 44%;
+}
+.subbooks12 a {
+  color: #010518;
+  text-decoration: none;
+}
+.subbooks12-1 {
+  overflow: hidden;
+  border-bottom: 3px solid yellow;
+  width: 100%;
+  height: 100%;
+}
+.image10 {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s all ease;
+  z-index: -1;
+}
+.image10:hover {
+  transform: scale(1.12, 1.12);
+}
+.subbooks12-2 {
+  background-color: #ffffff;
+  overflow: none;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+.subbooks13 {
+  display: grid;
+  grid-template-rows: 50px;
+  justify-content: center;
+}
+.lo {
+  background: linear-gradient(#000000 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+  transition: 0.4s, background-position 0s;
+  border: 1px solid black;
+  height: 30px;
+  width: 130px;
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+}
+
+.load {
+  align-self: center;
+  justify-self: center;
+  grid-row: 3/4;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  font-weight: 800;
+  color: #030303;
+}
+.lo:hover,
+.load:hover {
+  --p: 100%;
+  color: #ffff;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  grid-template-rows: 100%;
+  height: 300px;
+  background-color: #ffff;
+}
+.footercontent1 {
+  grid-column: 2/3;
+}
+.footercontent1 ul {
+  list-style-type: none;
+}
+.footercontent1 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent1 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent2 {
+  grid-column: 3/4;
+}
+.footercontent2 ul {
+  list-style-type: none;
+}
+.footercontent2 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent2 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+.footercontent3 {
+  grid-column: 4/5;
+}
+.footercontent3 ul {
+  list-style-type: none;
+}
+.footercontent3 ul li a {
+  text-decoration: none;
+  color: #010518;
+}
+.footercontent3 ul li a:hover {
+  text-transform: capitalize;
+  text-decoration: underline;
+  color: green;
+}
+hr {
+  font-weight: 900;
+}
+.lastfooter {
+  margin: 0;
+}
+.ima {
+  width: 400px;
+}
