@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import VideoPlayer from "./AnimalVideoPlayer";
 import "./Valuecontent.css";
 export default function Animal() {
-  const videoUrl = "./videos/Animals.mp4";
+  const videoUrl =
+    "https://player.vimeo.com/external/587709266.sd.mp4?s=1d62972983b92adfbd7076647b989878861acdd8&profile_id=165&oauth2_token_id=57447761";
   return (
     <div>
       <div class="firstcontainer">hello</div>

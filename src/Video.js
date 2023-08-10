@@ -2,7 +2,8 @@ import React from "react";
 import { Container, Col, Row } from "reactstrap";
 import VideoPlayer from "./AnimalVideoPlayer";
 export default function Video() {
-  const videoUrl = "./videos/Animals.mp4";
+  const videoUrl =
+    "https://player.vimeo.com/external/468451144.sd.mp4?s=1a225f021e1bb831f8973685579845d84fb2521c&profile_id=164&oauth2_token_id=57447761";
   return (
     <div>
       <div className="container1"></div>
@@ -14,42 +15,42 @@ export default function Video() {
         <Row>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/africanlion.mp4" type="video/webm" />
-                <source src="./videos/africanlion.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/tlZwYsJpqjo"
+              ></iframe>
               African-lion
             </div>
           </Col>
-
+          <br></br>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/gorila.mp4" type="video/webm" />
-                <source src="./videos/gorila.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                src="https://www.youtube.com/embed/rHhSCO5-3Pg"
+                width="310"
+                height="220"
+              ></iframe>
               Gorila
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/spoted.mp4" type="video/webm" />
-                <source src="./videos/spoted.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/ifXMpuNk9RA"
+              ></iframe>
               Spoted animal
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/cobra.mp4" type="video/webm" />
-                <source src="./videos/cobra.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/ImUgAzHSyIc"
+              ></iframe>
               Cobra
             </div>
           </Col>
@@ -57,81 +58,81 @@ export default function Video() {
           <br></br>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/armyant.mp4" type="video/webm" />
-                <source src="./videos/armyant.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/A_hEZNxG_H8"
+              ></iframe>
               Army-ant
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/racoon.mp4" type="video/webm" />
-                <source src="./videos/racoon.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/1lViKrWgTYk"
+              ></iframe>
               Racoon
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/wolf.mp4" type="video/webm" />
-                <source src="./videos/wolf.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/VYKsI5ILiaQ"
+              ></iframe>
               Wolf
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/bettle.mp4" type="video/webm" />
-                <source src="./videos/bettle.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/veY5fyt66cg"
+              ></iframe>
               Bettle
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/secretbird.mp4" type="video/webm" />
-                <source src="./videos/secretbird.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/7itwHJiNRz4"
+              ></iframe>
               Secret Bird
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/bluewhale.mp4" type="video/webm" />
-                <source src="./videos/bluewhale.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/dciLg3Zm1hI"
+              ></iframe>
               Bluewhale
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/africanelephant.mp4" type="video/webm" />
-                <source src="./videos/africanelephant.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/Fk3VdpuFx0Q"
+              ></iframe>
               African Elephant
             </div>
           </Col>
           <Col sm="12" md="6" lg="4" xl="3" xxl="3">
             <div class="videocard">
-              <video width="310" height="240" controls>
-                <source src="./videos/polarbear.mp4" type="video/webm" />
-                <source src="./videos/polarbear.mp4" type="video/mp4" />
-                Sorry, your browser doesn't support videos.
-              </video>
+              <iframe
+                width="310"
+                height="220"
+                src="https://www.youtube.com/embed/XdCaBF8NJ00"
+              ></iframe>
               Polar-Bear
             </div>
           </Col>
