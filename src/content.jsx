@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 const content = (
-  <div class="header">
+  <div className="header">
     <div className="headersubchild">
-      <div class="child1">
+      <div className="child1">
         <Link to="/search">
-          SEARCH <i class="fa-solid fa-magnifying-glass"></i>
+          SEARCH <i className="fa-solid fa-magnifying-glass"></i>
         </Link>
       </div>
-      <div class="child2">
+      <div className="child2">
         <Link to="/shop">
-          SHOP <i class="fa-solid fa-cart-shopping"></i>
+          SHOP <i className="fa-solid fa-cart-shopping"></i>
         </Link>
       </div>
     </div>

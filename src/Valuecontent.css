@@ -50,43 +50,7 @@ body {
   justify-self: center;
   align-self: center;
 }
-/* .books {
-  display: grid;
-  height: auto;
-  grid-template-columns: 12% 22% 22% 22% 14%;
-  grid-template-rows: 400px 400px 400px 400px 400px;
-  grid-column-gap: 2%;
-  grid-row-gap: 30px;
-  background-color: rgb(242, 249, 255);
-} */
-/* .subbooks1 {
-  height: 600px;
-  width: 50%;
-  grid-column: 2/4;
-  grid-row: 1/2;
-  box-shadow: 2px 4px 2px rgb(234, 226, 226);
-  background-image: url("https://i.natgeofe.com/k/42e5d537-beaf-4df9-9091-82f77bffd600/april-23-ngk-cover-fb.jpg?w=1440&h=810");
-  background-size: 80%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #ffffff;
-  font-size: 30px;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: 800;
-  display: grid;
-  grid-template-rows: repeat(5, 1fr);
-} */
-/* .subbooks1content {
-  grid-row: 5/6;
-}
-.subbooks1content a {
-  color: #ffffff;
-  text-decoration: none;
-}
-.subbooks1content a:hover {
-  color: rgb(117, 20, 165);
-} */
+
 .subbooks2 {
   height: 350px;
   box-shadow: 2px 2px 9px 2px rgb(234, 226, 226);
@@ -120,7 +84,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -156,7 +120,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks4 {
@@ -191,7 +155,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks5 {
@@ -226,7 +190,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks6 {
@@ -261,7 +225,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks7 {
@@ -296,7 +260,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks8 {
@@ -331,7 +295,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks9 {
@@ -366,7 +330,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks10 {
@@ -401,7 +365,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks11 {
@@ -436,7 +400,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks12 {
@@ -471,7 +435,7 @@ body {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 .subbooks13 {

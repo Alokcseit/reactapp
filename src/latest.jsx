@@ -2,7 +2,7 @@ import { Row, Col, Container } from "reactstrap";
 import { Link } from "react-router-dom";
 const latestbook = (
   <div>
-    <div class="latestcontent">
+    <div className="latestcontent">
       <div className="latestcontent1">SNEAK PEAK PAGES</div>
       <div className="latestcontent2">Check out past issues of magazine</div>
       <div className="latestcontent3"></div>
@@ -13,7 +13,7 @@ const latestbook = (
       <Row>
         {/* <Col sm="12" xxl="6">
           <div className="subbooks1">
-            <div class="subbooks1content">
+            <div className="subbooks1content">
               <Link to="#">(ADD) Subscribe</Link>
             </div>
           </div>
@@ -22,12 +22,12 @@ const latestbook = (
           <div className="subbooks2">
             <Link to="/turtle">
               <div className="subbooks2-1">
-                <img src="./images/2.webp" alt="" class="image" />
+                <img src="./images/2.webp" alt="" className="image" />
               </div>
               <div className="subbooks2-2">
                 <h2>Check Out These Issue !</h2>
                 <h4>
-                  <i class="fa-solid fa-bars"></i> REAd
+                  <i className="fa-solid fa-bars"></i> REAd
                 </h4>
               </div>
             </Link>
@@ -38,12 +38,12 @@ const latestbook = (
           <div className="subbooks3">
             <Link to="#">
               <div className="subbooks3-1">
-                <img class="image1" src="./images/3.webp" alt="" />
+                <img className="image1" src="./images/3.webp" alt="" />
               </div>
               <div className="subbooks3-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </Link>
@@ -54,12 +54,12 @@ const latestbook = (
           <div className="subbooks4">
             <Link href="#">
               <div className="subbooks4-1">
-                <img class="image2" src="./images/4.webp" alt="" />
+                <img className="image2" src="./images/4.webp" alt="" />
               </div>
               <div className="subbooks4-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </Link>
@@ -70,12 +70,12 @@ const latestbook = (
           <div className="subbooks5">
             <a href="#">
               <div className="subbooks5-1">
-                <img class="image3" src="./images/5.webp" alt="" />
+                <img className="image3" src="./images/5.webp" alt="" />
               </div>
               <div className="subbooks5-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -86,12 +86,12 @@ const latestbook = (
           <div className="subbooks6">
             <a href="#">
               <div className="subbooks6-1">
-                <img class="image3" src="./images/6.webp" alt="" />
+                <img className="image3" src="./images/6.webp" alt="" />
               </div>
               <div className="subbooks6-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -102,12 +102,12 @@ const latestbook = (
           <div className="subbooks7">
             <a href="#">
               <div className="subbooks7-1">
-                <img class="image5" src="./images/7.webp" alt="" />
+                <img className="image5" src="./images/7.webp" alt="" />
               </div>
               <div className="subbooks7-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -118,12 +118,12 @@ const latestbook = (
           <div className="subbooks8">
             <a href="#">
               <div className="subbooks8-1">
-                <img class="image6" src="./images/9.webp" alt="" />
+                <img className="image6" src="./images/9.webp" alt="" />
               </div>
               <div className="subbooks8-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -134,12 +134,12 @@ const latestbook = (
           <div className="subbooks9">
             <a href="#">
               <div className="subbooks9-1">
-                <img class="image7" src="./images/10.webp" alt="" />
+                <img className="image7" src="./images/10.webp" alt="" />
               </div>
               <div className="subbooks9-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -150,12 +150,12 @@ const latestbook = (
           <div className="subbooks10">
             <a href="#">
               <div className="subbooks10-1">
-                <img class="image8" src="./images/11.webp" alt="" />
+                <img className="image8" src="./images/11.webp" alt="" />
               </div>
               <div className="subbooks10-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -166,12 +166,12 @@ const latestbook = (
           <div className="subbooks11">
             <a href="#">
               <div className="subbooks11-1">
-                <img class="image9" src="./images/12.webp" alt="" />
+                <img className="image9" src="./images/12.webp" alt="" />
               </div>
               <div className="subbooks11-2">
                 <h2>Check Out These Issue !</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -182,12 +182,12 @@ const latestbook = (
           <div className="subbooks12">
             <a href="#">
               <div className="subbooks12-1">
-                <img class="image10" src="./images/14.webp" alt="" />
+                <img className="image10" src="./images/14.webp" alt="" />
               </div>
               <div className="subbooks12-2">
                 <h2>Magazine Sneak Peak</h2>
                 <h3>
-                  <i class="fa-solid fa-bars"></i> READ
+                  <i className="fa-solid fa-bars"></i> READ
                 </h3>
               </div>
             </a>
@@ -200,8 +200,8 @@ const latestbook = (
 
     <div className="subbooks13">
       <div className="lo">
-        <a class="load" href="#">
-          <i class="fa-solid fa-spinner"></i> READ MORE
+        <a className="load" href="#">
+          <i className="fa-solid fa-spinner"></i> READ MORE
         </a>
       </div>
     </div>
@@ -267,14 +267,14 @@ const latestbook = (
     </div>
     <hr />
     <Container>
-      <Row class="lastfooter">
+      <Row className="lastfooter">
         <Col sm="12" md="10" lg="8" xl="7" xxl="6">
-          <div class="ima">
-            <img class="lastimg" src="./images/15.webp" alt="" />
+          <div className="ima">
+            <img className="lastimg" src="./images/15.webp" alt="" />
           </div>
         </Col>
         <Col>
-          <div class="text">
+          <div className="text">
             <p>
               {" "}
               Copyright © 1996-2015 National Geographic Society | Copyright ©

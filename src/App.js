@@ -22,13 +22,13 @@ function App() {
   return (
     <div>
       <Router>
+        <Header></Header>
+        <Menu></Menu>
         <Routes>
           <Route
             path="/"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Valuecontentv></Valuecontentv>
               </div>
             }
@@ -37,8 +37,6 @@ function App() {
             path="/image"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Image></Image>
               </div>
             }
@@ -47,8 +45,6 @@ function App() {
             path="/animal"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Animal></Animal>
               </div>
             }
@@ -57,8 +53,6 @@ function App() {
             path="/video"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Video></Video>
               </div>
             }
@@ -67,8 +61,6 @@ function App() {
             path="/explore"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Explore></Explore>
               </div>
             }
@@ -77,8 +69,6 @@ function App() {
             path="/subscribe"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Subscribe></Subscribe>
               </div>
             }
@@ -87,8 +77,6 @@ function App() {
             path="/turtle"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Turtle></Turtle>
               </div>
             }
@@ -97,8 +85,6 @@ function App() {
             path="/search"
             element={
               <div>
-                <Header></Header>
-                <Menu></Menu>
                 <Search></Search>
               </div>
             }

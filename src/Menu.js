@@ -3,45 +3,48 @@ import { Link } from "react-router-dom";
 function Menu() {
   const [isMobile, SetIsMobile] = useState(false);
   return (
-    <nav class="menu">
-      <div class="menuchild1">
+    <nav className="menu">
+      <div className="menuchild1">
         <img src="./images/kids.webp" alt="" />
       </div>
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => SetIsMobile(false)}
       >
-        <Link to="/image" class="imag">
-          <i class="fa-solid fa-images"></i>
+        <Link to="/image" className="imag">
+          <i className="fa-solid fa-images"></i>
           <li>IMAGE</li>
         </Link>
-        <Link to="/video" class="video">
-          <i class="fa-solid fa-circle-play"></i>
+        <Link to="/video" className="video">
+          <i className="fa-solid fa-circle-play"></i>
           <li>VIDEO</li>
         </Link>
-        <Link to="/animal" class="animal">
-          <i class="fa-solid fa-paw"></i>
+        <Link to="/animal" className="animal">
+          <i className="fa-solid fa-paw"></i>
           <li>ANIMAL</li>
         </Link>
-        <Link to="/explore" class="explore">
-          <i class="fa-solid fa-location-crosshairs"></i>
+        <Link to="/explore" className="explore">
+          <i className="fa-solid fa-location-crosshairs"></i>
           <li>EXPLORE</li>
-          <div class="dropdown-content">
-            <a href="#">Link 1</a>
-            <a href="#">Link 2</a>
-            <a href="#">Link 3</a>
+          <div className="dropdown-content">
+            <div>Link 1</div>
+            <div>Link 2</div>
+            <div>Link 3</div>
           </div>
         </Link>
-        <Link to="/subscribe" class="subscribe">
-          <i class="fa-regular fa-pen-to-square"></i>
+        <Link to="/subscribe" className="subscribe">
+          <i className="fa-regular fa-pen-to-square"></i>
           <li>SUBSCRIBE</li>
         </Link>
       </ul>
-      <button class="mobile-menu-icon" onClick={() => SetIsMobile(!isMobile)}>
+      <button
+        className="mobile-menu-icon"
+        onClick={() => SetIsMobile(!isMobile)}
+      >
         {isMobile ? (
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         ) : (
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         )}
       </button>
       {/* <div className="menuchild3">
